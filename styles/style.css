@@ -72,3 +72,47 @@ a,
   width: 380px;
   height: 240px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-sec {
+  width: 80%;
+  text-align: center;
+}
+
+.cards-sec h2 {
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
+  padding: 44px 0;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card p {
+  color: #52575e;
+}
+
+.img-place img {
+  height: 150px;
+  width: 150px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.img-place img:hover {
+  transform: scale(1.03);
+}
